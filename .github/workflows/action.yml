@@ -28,7 +28,7 @@ jobs:
    
 #    Generate HTML report
 
-      - name: Reporting eWorkOrderAPI
+      - name: Reporting FireflyAPIs
         uses: actions/upload-artifact@v1
         with:
           name: jmeter-test-results-FireflyAPIs
