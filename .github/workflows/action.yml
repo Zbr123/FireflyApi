@@ -31,5 +31,5 @@ jobs:
       - name: Reporting FireflyAPIs
         uses: actions/upload-artifact@v1
         with:
-          name: jmeter-test-results-FireflyJmeterSuite
+          name: jmeter-test-results-FireflyJmeterAPIs
           path: reports/
